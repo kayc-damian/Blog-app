@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RACE REGISTRATION</title>
+    <style>
+        button {
+            background-color: red;
+            color: black;
+            width: fit-content;
+        }
+
+        body {
+            background-color: greenyellow;
+
+        }
+
+        h1 {
+            color: black;
+            font-style: calc();
+            font-size: xx-large;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>REGISTER YOUR INTEREST ON ACCESS MARATHON RACE</h1>
+    <form>
+        <div>
+            <label for="first"><b>First Name</b></label>
+            <input type="text" id="first" name="first" required>
+            <label for="last"><b>Last Name</b></label>
+            <input type="text" id="last" name="last">
+        </div>
+        <div>
+
+
+            <input type="radio" name="can" id="fun">
+            <label for="fun">fun run</label><br>
+
+            <input type="radio" name="can" id="long">
+            <label for="long">100 meters</label><br>
+
+            <input type="radio" id="marathon" name="can">
+            <label for="marathon">Marathon</label><br>
+
+        </div><br>
+        <div>
+            <label for="mail"><b>Email address</b></label>
+            <input type="text" id="mail" name="log"><br>
+            <br>
+            <label for="pass"><b>password</b></label>
+            <input type="password" id="pass" name="log">
+        </div><br>
+        <label for="age">Select age group</label>
+        <select name="age" id="age">
+            <option>15-20</option>
+            <option>21-30</option>
+            <option>31-40</option>
+            <option>41-50</option>
+        </select><br>
+        <button>Register</button>
+    </form>
+</body>
+
+</html>
